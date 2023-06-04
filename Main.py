@@ -1,6 +1,5 @@
 from math import sqrt
 
-# n is the number to be check whether it is prime or not
 n = int(input("What number do you want to start from: "))
  
 
@@ -37,7 +36,6 @@ while user_input.lower() == "yes" or user_input.lower() == "y":
 	print(Check(n))
 	user_input = input("Would you like to see the next prime number? (yes/no): ")
 
-exit()
 
 
 		
